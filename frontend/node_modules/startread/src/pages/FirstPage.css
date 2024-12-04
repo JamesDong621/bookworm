@@ -1,0 +1,83 @@
+/* frontend/src/pages/FirstPage/FirstPage.css */
+body {
+    background: #FFF;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+}
+
+.black-text {
+    color: var(--Black, #252E2C);
+    font-family: "General Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.green-text {
+    color: var(--Bold-Mint, #47837A);
+    font-family: "General Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#slogan {
+    width: 493px;
+    color: var(--Black, #252E2C);
+    font-family: "General Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 100px;
+}
+
+.signup-btn {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding: 5px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    border: 2px solid var(--Bold-Mint, #47837A);
+    background: var(--Bold-Mint, #47837A);
+    box-shadow: 3px 5px 4px 0px #47837A;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    color: #FFF;
+    font-family: "General Sans";
+    cursor: pointer;
+}
+
+.login-btn {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding: 5px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    border: 2px solid var(--Bold-Mint, #47837A);
+    box-shadow: 3px 4px 6px 0px #6D7170;
+    color: #47837A;
+    font-family: "General Sans";
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.mascot {
+    width: 350px;
+    height: 400px;
+    float: right;
+    margin-top: -150px;
+    margin-right: 300px;
+}

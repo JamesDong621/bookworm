@@ -1,0 +1,14 @@
+{
+  "name": "startread",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "set PORT=3000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,117 @@
+/* nav styles:
+.navbar-left
+    navbar-brand: Bookworm brand name
+    navbar-link: buttons to go to start-reading and book-log
+.navbar-right
+    coins: coin display
+    home-btn: button to go to shop
+*/
+
+/* TODO: add a logout button */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px -12px #47837A;
+}
+.navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-left .navbar-brand {
+    font-size: 35px;
+    color: #252E2C;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 22px;
+}
+.brand-color-shift {
+    color: #47837A;
+}
+.navbar-left .nav-link {
+    margin-left: 6px;
+    color: #252E2C;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 3px 20px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 1000000px;
+    transition: 0.2s;
+    background: none;
+    cursor: pointer;
+}
+.nav-link:hover {
+    border-color: #252E2C;
+}
+.nav-link svg {
+    overflow: visible;
+}
+.navbar-right .coins {
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #252E2C;
+}
+.coins svg {
+    overflow: visible;
+}
+.home-btn {
+    padding: 3px 20px;
+    color: #47837A;
+    background-color: white;
+    font-size: 21px;
+    font-weight: 500;
+    border-color: #47837A;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 1000000px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.home-btn:hover {
+    background-color: #47837A;
+    color: white;
+}
+#logout {
+    margin-left: 23px;
+}
+
+@media (max-width: 980px) {
+    .navbar {
+        flex-direction: row;
+    }
+
+    .navbar-left, .navbar-right {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar-left .navbar-brand {
+        margin-right: 0;
+    }
+
+    .navbar-left .nav-link {
+        margin: 5px 0;
+    }
+
+    .navbar-right {
+        margin-top: 15px;
+    }
+
+    .navbar-right .coins {
+        margin-top: -20px;
+    }
+
+    .home-btn, #logout {
+        margin-left: 0;
+        margin-top: 15px; /* Space between buttons */
+    }
+}
